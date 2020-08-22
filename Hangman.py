@@ -1,27 +1,15 @@
 import random 
 # library that we use in order to choose  
 # on random words from a list of words 
-
-  
-
 name = input("What is your name? ") 
 # Here the user is asked to enter the name first 
-
-  
-
-print("Good Luck ! ", name) 
-
-  
-
+print("Good Luck ! ", name)
 words = ['rainbow', 'computer', 'science', 'programming',  
 
          'python', 'mathematics', 'player', 'condition',  
 
          'reverse', 'water', 'board', 'geeks']  
-
-  
-# Function will choose one random 
-# word from this list of words 
+# Function will choose one random # word from this list of words 
 
 word = random.choice(words) 
 
